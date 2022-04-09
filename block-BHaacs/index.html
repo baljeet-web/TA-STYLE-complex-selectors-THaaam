@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Complex Selectors - Assignment I</title>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Font Kit Code -->
+        <script src="https://kit.fontawesome.com/2e5837ff2f.js" crossorigin="anonymous"></script>
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="container flex jsb">
+                <h3 class="header-heading">TrackL</h2>
+                <label class="bars" for="toggle">
+                    <i class="fas fa-bars"></i>
+                </label>    
+                <input type="checkbox" id="toggle">
+                <nav class="nav-links">
+                    <ul class="flex">
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>About</li>
+                        <li>Help</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="small-container">
+                    <h2 class="main-heading">Track the learning process schedule</h1>
+                    <button class="main-button">Get 30 days trial</button>
+                </div>
+                <img src="../assets/hero.png" alt="hero-image">
+            </section>
+            <!-- File Section -->
+            <section class="file-section container">
+                <nav class="files container flex jsb sm-flex sm-flex-column sm-jsb sm-aic">
+                    <a href="#.pdf">PDF FILE</a>
+                    <a href="#.doc">WORD FILE</a>
+                    <a href="#.src">IMAGE FILE</a>
+                    <a href="#.mp4">VIDEO FILE</a>
+                </nav>
+                <hr>
+            </section>
+            <!-- Monitor Section -->
+            <section class="monitor-section container flex jsb flex-wrap">
+                <div class="flex-40 flex-100 sm-flex sm-flex-column sm-aic margin-bottom">
+                    <h3 class="common-heading">Monitor your learning and improve it</h3>
+                    <p class="common-para sm-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempora nostrum expedita id nulla placeat modi magnifiq.
+                    </p>
+                    
+                    <button class="learn-more">Learn More</button>
+                    <i class="arrow-right"></i>
+                </div>
+                <img class="flex-50 flex-100" src="../assets/learning-graph.png" alt="learning-graph">
+            </section>
+            <!-- Weekly Section -->
+            <section class="weekly-section container">
+                <h3 class="common-heading weekly-heading">Weekly Score</h3>
+                <table>
+                    <tr>
+                        <th>Days</th>
+                        <th>Course</th>
+                        <th>Score (0-100)</th>
+                        <th>Hours Spent</th>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Product Design</td>
+                        <td>40</td>
+                        <td>2 Hour 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Product Design</td>
+                        <td>60</td>
+                        <td>3 Hour 20 min</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Data Science</td>
+                        <td>20</td>
+                        <td>1 Hour 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>UI Design</td>
+                        <td>60</td>
+                        <td>2 Hour 20 min</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>UX Design</td>
+                        <td>30</td>
+                        <td>2 Hour 30 min</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Data Science</td>
+                        <td>50</td>
+                        <td>2 Hour 20 min</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>HTML & CSS</td>
+                        <td>70</td>
+                        <td>3 Hour 40 min</td>
+                    </tr>
+                </table>
+            </section>
+            <!-- Join Us Section -->
+            <section class="join-us-section">
+                <div class="small-container">
+                    <h3 class="common-heading join-us-heading">Join Us and let's study with your friends</h3>
+                    <div class="flex switch-div">
+                        <span>Monthly</span>
+                        <div class="switch flex jce aic">
+                            <div class="circle flex jcc aic">
+                                <div class="small-rectangle"></div>
+                            </div>
+                        </div>
+                        <span>Yearly</span>
+                    </div>
+                </div>
+                <div class="container flex jsb join-us-boxes flex-wrap">
+                    <div class="flex-45 join-box flex-100 margin-bottom">
+                        <h3 class="common-heading">Basic</h3>
+                        <p class="common-para">Its a long established fact that a reader will be distracted by a readable</p>
+                        <h4>48</h4>
+                        <hr>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="tick"> 50 Courses a day</h5>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="tick"> 4 forums a month</h5>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="tick"> 16 chapters a day</h5>
+                        <h5><img src="../assets/cross.png" alt="cross"> Private lessons once a week</h5>
+                        <h5><img src="../assets/cross.png" alt="cross"> Get weekly reward</h5>
+                        <button class="Get-Started">Get Started</button>
+                    </div>
+                    <div class="flex-45 join-box flex-100">
+                        <h3 class="common-heading">Most Popular</h3>
+                        <p class="common-para">Its a long established fact that a reader will be distracted by a readable</p>
+                        <h4>58</h4>
+                        <hr>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="tick"> 50 Courses a day</h5>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="tick"> 4 forums a month</h5>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="tick"> 16 chapters a day</h5>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="cross"> Private lessons once a week</h5>
+                        <h5 class="tick"><img src="../assets/tick.png" alt="cross"> Get weekly reward</h5>
+                        <button class="Get-Started Get-Started-Popular">Get Started</button>
+                    </div>
+                </div>
+            </section>
+            <!-- 30 Day trial Section -->
+            <section class="trial-section container">
+                <h3 class="common-heading trial-heading">Start your 30 Days Trial Now!</h3>
+                <button class="main-button button-margin">Get Started</button>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="footer container flex jsb flex-wrap">
+            <div class="flex-25 flex-100 sm-text-center margin-bottom">
+                <h3 class="common-heading">TrackL</h3>
+                <p class="common-para">Far far away, behind the word mountains, far from the.</p>
+                <nav class="find-us sm-flex sm-flex-column sm-aic">
+                    <ul class="flex">
+                        <li>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex-20 flex-100 sm-text-center margin-bottom">
+                <h3 class="common-heading">Features</h3>
+                <ul>
+                    <li class="common-para">Calender</li>
+                    <li class="common-para">Forum</li>
+                    <li class="common-para">Messenger</li>
+                    <li class="common-para">Schedule</li>
+                </ul>
+            </div>
+            <div class="flex-20 flex-100 sm-text-center margin-bottom">
+                <h3 class="common-heading">Support</h3>
+                <ul>
+                    <li class="common-para">AboutUs</li>
+                    <li class="common-para">Career</li>
+                    <li class="common-para">FAQs</li>
+                    <li class="common-para">Security</li>
+                </ul>
+            </div>
+            <div class="flex-25 flex-100 sm-text-center margin-bottom">
+                <h3 class="common-heading">Contact</h3>
+                <ul>
+                    <li class="common-para">hello@trackl.io</li>
+                    <li class="common-para">(+00) 0000 000 000</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
